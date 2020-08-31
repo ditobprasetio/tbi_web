@@ -1,0 +1,26 @@
+// Variable
+
+/** caro - image editor **/ 
+#carousel-custom-image{
+ 
+  img{display:none;}
+  img:nth-child(1){display:block;}
+}
+.cover-caro{
+  position:relative;
+  overflow:hidden;
+  height:100%;
+  .fa{
+    position:absolute;
+    right:10px;
+    top:10px;
+    color:red;
+    cursor:pointer;
+    padding:3px;
+    border:1px solid #fff;
+  }
+  .fa:hover{
+    color:gray;
+    background-color:whitemsoke;
+  }
+}
